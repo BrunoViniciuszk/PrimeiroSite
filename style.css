@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+  body {
+    background-image: linear-gradient(to top, #666699 0%, #6600cc 100%);  
+  }
+  .inicio {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(111, 134, 127, 0.521);
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+  }
+  footer {
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+  }
+  .bruno {
+    border-radius: 11px;
+  }
+  #imagem {
+    width: 1450px;
+    margin-top: -8px;
+    margin-left: -8px;
+  }
+  .link:hover {
+    color: rgb(38, 0, 255);
+  }
+  .link:visited {
+    color: rgba(105, 77, 207, 0.76);
+  }
+  .link:active {
+    color: rgb(107, 121, 255);
+  }
+  div {
+    color: rgb(76, 38, 182);
+
+  }
+  #texto {
+    color: black;
+    
+  }
+  ul {
+    text-align: justify;
+  }
+  #dicas {
+    text-align: justify;
+  }
